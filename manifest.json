@@ -1,0 +1,17 @@
+{
+    "lang": "en-us",
+    "name": "7A Appen",
+    "short_name": "7A appen",
+    "description": "Appen för medlemar i 7A Grubbeskolan",
+    "start_url": "/",
+    "background_color": "rgb(39, 39, 39)",
+    "theme_color": "rgb(39, 39, 39)",
+    "orientation": "any",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "/icon512.png",
+            "sizes": "512x512"
+        }
+    ]
+}

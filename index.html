@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+<head>
+    <link rel="manifest" href="/manifest.json">
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="shortcut icon" href="https://c.s-microsoft.com/favicon.ico?v2" />
+    <title>Klass 7A</title>
+</head>
+<body>
+    <div class="StartContent">
+        <h1 id="welcome">7A Appen</h1>
+    </div>
+    <div class="NavBar">
+        <button class="NavBTN" id="HomeNAV">HE</button>
+        <button class="NavBTN" id="HomeworkNAV">HW</button>
+        <button class="NavBTN" id="PlaningNAV">PA</button>
+        <button class="NavBTN" id="ClassroomNAV">CL</button>
+        <button class="NavBTN" id="BlooketNAV">BL</button>
+        <button class="NavBTN" id="KahootNAV">KA</button>
+    </div>
+</body>
+<script src="./main.js"></script>
+<script>
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('./sw.js', { scope: '/' });
+    }
+    </script>
+</html>
